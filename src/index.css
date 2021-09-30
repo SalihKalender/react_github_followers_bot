@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+    overflow-x: hidden;
+    background-color: #6B7280;
+}
 .content {
     width: 250px;
     height: 250px;
